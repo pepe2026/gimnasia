@@ -1,0 +1,90 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera en azul */
+header {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #FF3B3F;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #FF3B3F;
+    transition: 0.3s;
+}
+
+/* Secciones de texto */
+.texto {
+    background-color: #FFFFFF;
+    border-left: 6px solid #FF3B3F;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2);
+}
+
+/* Titulares internos */
+h2, h3, h4 {
+    color: #1E90FF;
+}
+
+/* Video y multimedia */
+video {
+    display: block;
+    margin: 30px auto;
+    border: 4px solid #1E90FF;
+    border-radius: 10px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #FF3B3F;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
